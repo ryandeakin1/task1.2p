@@ -20,8 +20,11 @@ main {
   align-items: center;
 }
 
+h3 {
+  padding: 30px 0;
+}
+
 #js-links {
-  margin-top: 50px;
   display: flex;
   align-items: center;
 }
