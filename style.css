@@ -13,3 +13,30 @@ header {
   border-radius: 10px;
   border: #847577 3px solid;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#js-links {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  padding: 10px;
+  margin: 5px;
+  background-color: #847577;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+  height: 18px;
+}
+
+a:any-link {
+  text-decoration: none;
+  color: #312F2F;
+}
